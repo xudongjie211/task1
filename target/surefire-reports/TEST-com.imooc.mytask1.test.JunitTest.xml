@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.imooc.mytask1.test.JunitTest" time="3.884" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="user.variant" value=""/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="user.dir" value="F:\eclipse luna\mytask1"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.home" value="C:\Java\jdk1.7.0_80\jre"/>
+    <property name="user.name" value="Administrator"/>
+    <property name="sun.boot.library.path" value="C:\Java\jdk1.7.0_80\jre\bin"/>
+    <property name="user.home" value="C:\Users\Administrator"/>
+    <property name="localRepository" value="D:\maven\respositorys"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.io.tmpdir" value="C:\Users\ADMINI~1\AppData\Local\Temp\"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.class.path" value="F:\eclipse luna\mytask1\target\test-classes;F:\eclipse luna\mytask1\target\classes;D:\maven\respositorys\junit\junit\4.12\junit-4.12.jar;D:\maven\respositorys\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\respositorys\org\springframework\spring-core\4.3.2.RELEASE\spring-core-4.3.2.RELEASE.jar;D:\maven\respositorys\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\respositorys\org\springframework\spring-context\4.3.2.RELEASE\spring-context-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-expression\4.3.2.RELEASE\spring-expression-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-test\4.3.2.RELEASE\spring-test-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-tx\4.3.2.RELEASE\spring-tx-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-beans\4.3.2.RELEASE\spring-beans-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-jdbc\4.3.2.RELEASE\spring-jdbc-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-aop\4.3.2.RELEASE\spring-aop-4.3.2.RELEASE.jar;D:\maven\respositorys\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\maven\respositorys\org\mybatis\mybatis-spring\1.3.0\mybatis-spring-1.3.0.jar;D:\maven\respositorys\mysql\mysql-connector-java\5.0.5\mysql-connector-java-5.0.5.jar;D:\maven\respositorys\com\alibaba\druid\1.1.10\druid-1.1.10.jar;D:\maven\respositorys\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;D:\maven\respositorys\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="user.script" value=""/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="sun.java.command" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire7734499939437084433\surefirebooter7550313924641773092.jar C:\Users\Administrator\AppData\Local\Temp\surefire7734499939437084433 2018-09-18T21-48-01_434-jvmRun1 surefire7274998845003311015tmp surefire_03999699609274916177tmp"/>
+    <property name="user.timezone" value=""/>
+    <property name="surefire.test.class.path" value="F:\eclipse luna\mytask1\target\test-classes;F:\eclipse luna\mytask1\target\classes;D:\maven\respositorys\junit\junit\4.12\junit-4.12.jar;D:\maven\respositorys\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;D:\maven\respositorys\org\springframework\spring-core\4.3.2.RELEASE\spring-core-4.3.2.RELEASE.jar;D:\maven\respositorys\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;D:\maven\respositorys\org\springframework\spring-context\4.3.2.RELEASE\spring-context-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-expression\4.3.2.RELEASE\spring-expression-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-test\4.3.2.RELEASE\spring-test-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-tx\4.3.2.RELEASE\spring-tx-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-beans\4.3.2.RELEASE\spring-beans-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-jdbc\4.3.2.RELEASE\spring-jdbc-4.3.2.RELEASE.jar;D:\maven\respositorys\org\springframework\spring-aop\4.3.2.RELEASE\spring-aop-4.3.2.RELEASE.jar;D:\maven\respositorys\org\mybatis\mybatis\3.2.8\mybatis-3.2.8.jar;D:\maven\respositorys\org\mybatis\mybatis-spring\1.3.0\mybatis-spring-1.3.0.jar;D:\maven\respositorys\mysql\mysql-connector-java\5.0.5\mysql-connector-java-5.0.5.jar;D:\maven\respositorys\com\alibaba\druid\1.1.10\druid-1.1.10.jar;D:\maven\respositorys\org\apache\logging\log4j\log4j-api\2.11.0\log4j-api-2.11.0.jar;D:\maven\respositorys\org\apache\logging\log4j\log4j-core\2.11.0\log4j-core-2.11.0.jar;"/>
+    <property name="java.runtime.version" value="1.7.0_80-b15"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="sun.boot.class.path" value="C:\Java\jdk1.7.0_80\jre\lib\resources.jar;C:\Java\jdk1.7.0_80\jre\lib\rt.jar;C:\Java\jdk1.7.0_80\jre\lib\sunrsasign.jar;C:\Java\jdk1.7.0_80\jre\lib\jsse.jar;C:\Java\jdk1.7.0_80\jre\lib\jce.jar;C:\Java\jdk1.7.0_80\jre\lib\charsets.jar;C:\Java\jdk1.7.0_80\jre\lib\jfr.jar;C:\Java\jdk1.7.0_80\jre\classes"/>
+    <property name="surefire.real.class.path" value="C:\Users\ADMINI~1\AppData\Local\Temp\surefire7734499939437084433\surefirebooter7550313924641773092.jar"/>
+    <property name="java.endorsed.dirs" value="C:\Java\jdk1.7.0_80\jre\lib\endorsed"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.version" value="24.80-b11"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="java.version" value="1.7.0_80"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.ext.dirs" value="C:\Java\jdk1.7.0_80\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="basedir" value="F:\eclipse luna\mytask1"/>
+    <property name="java.library.path" value="C:\Java\jdk1.7.0_80\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Java\jdk1.7.0_80\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\;C:\Program Files\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\binn\;C:\Program Files (x86)\Microsoft SQL Server\90\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\90\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 8\Common7\IDE\PrivateAssemblies\;D:\maven\apache-maven-3.5.4\bin;D:\mysql\bin;E:\rar\;."/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="user.country" value="CN"/>
+  </properties>
+  <testcase name="testAdd" classname="com.imooc.mytask1.test.JunitTest" time="0.199"/>
+</testsuite>
